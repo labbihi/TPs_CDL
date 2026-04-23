@@ -1,6 +1,11 @@
 package TestDoc;
 
 
+import Adapter.DataProcessor;
+import Adapter.ThirdPartAdapter;
+import Adapter.ThirdPartyLibrary;
+import Ex2.Diagramme;
+
 /**
  * C'est une class de Test de documentation
  */
@@ -41,6 +46,9 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("Test ....");
+        Diagramme diagramme = new Diagramme();
+        
+
     }
 
 
