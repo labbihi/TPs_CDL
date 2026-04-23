@@ -1,0 +1,17 @@
+package Ex5;
+
+public class Main {
+
+    public static void main(String[] args) {
+        DataProcessor dataProcessor = new ThirdPartyAdapter();
+
+
+
+
+        dataProcessor.process("Arrive");
+
+    }
+
+
+
+}
