@@ -28,6 +28,17 @@ public class Test {
     }
 
 
+    public void  sommer(int debut, int fin) {
+        if (debut > fin) {
+            System.out.println("");
+        }
+        int total = 0;
+        for (int i = debut; i <= fin; i++) {
+            total += i;
+        }
+        System.out.println(total);
+    }
+
     public static void main(String[] args) {
         System.out.println("Test ....");
     }
