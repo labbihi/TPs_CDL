@@ -3,7 +3,6 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-!**/src/Obs
 
 ### Eclipse ###
 .apt_generated
